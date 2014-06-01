@@ -3,9 +3,11 @@
 
 require 'bundler'
 Bundler.require
+require 'sinatra/static_assets'
  
 class StarterApp < Sinatra::Base
   register Sinatra::Partial
+  register Sinatra::StaticAssets
   
   set :root,          File.dirname(__FILE__)
   set :assets,        Sprockets::Environment.new(root)

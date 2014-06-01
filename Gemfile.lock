@@ -33,6 +33,8 @@ GEM
       tilt (~> 1.3, >= 1.3.4)
     sinatra-partial (0.4.0)
       sinatra
+    sinatra-static-assets (1.0.4)
+      sinatra (>= 1.1.0)
     sinatra-support (1.2.2)
       sinatra (>= 1.0)
     sprockets (2.12.1)
@@ -62,6 +64,7 @@ DEPENDENCIES
   shotgun
   sinatra
   sinatra-partial
+  sinatra-static-assets
   sinatra-support
   sprockets
   sprockets-helpers

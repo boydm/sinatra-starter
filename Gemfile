@@ -7,7 +7,8 @@ gem 'rack-cache'
 gem 'sinatra', :require => 'sinatra/base'
 gem 'sinatra-support'
 gem 'sinatra-partial'
- 
+gem 'sinatra-static-assets'
+
 gem 'haml'
  
 gem 'sprockets'
