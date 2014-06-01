@@ -4,6 +4,7 @@
 require 'bundler'
 Bundler.require
 require 'sinatra/static_assets'
+require 'sinatra/content_for'
  
 class StarterApp < Sinatra::Base
   register Sinatra::Partial
@@ -45,6 +46,7 @@ class StarterApp < Sinatra::Base
  
   helpers do
     include Sprockets::Helpers
+    include Sinatra::ContentFor
   end
  
 end # class StarterApp

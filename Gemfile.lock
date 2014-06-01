@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    backports (3.6.0)
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
     chunky_png (1.3.1)
@@ -24,6 +25,8 @@ GEM
       rack (>= 0.4)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
     sass (3.2.19)
     shotgun (0.9)
       rack (>= 1.0)
@@ -31,6 +34,13 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    sinatra-contrib (1.4.2)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (~> 1.3)
     sinatra-partial (0.4.0)
       sinatra
     sinatra-static-assets (1.0.4)
@@ -63,6 +73,7 @@ DEPENDENCIES
   rack-cache
   shotgun
   sinatra
+  sinatra-contrib
   sinatra-partial
   sinatra-static-assets
   sinatra-support
