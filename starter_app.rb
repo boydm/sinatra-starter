@@ -5,6 +5,8 @@ require 'bundler'
 Bundler.require
  
 class StarterApp < Sinatra::Base
+  register Sinatra::Partial
+  
   set :root,          File.dirname(__FILE__)
   set :assets,        Sprockets::Environment.new(root)
   set :precompile,    [ /\w+\.(?!js|css).+/, /application.(css|js)$/ ]
