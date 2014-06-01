@@ -1,0 +1,15 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/temp
+
+# ignore mac sys file
+.ds_store
+
+# ignore the sprockets sass cache
+/.sass-cache
