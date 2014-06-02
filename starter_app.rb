@@ -5,6 +5,7 @@ require 'bundler'
 Bundler.require
 require 'sinatra/static_assets'
 require 'sinatra/content_for'
+require 'rdiscount'
  
 class StarterApp < Sinatra::Base
   register Sinatra::Partial

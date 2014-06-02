@@ -27,6 +27,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rdiscount (2.1.7.1)
     sass (3.2.19)
     shotgun (0.9)
       rack (>= 1.0)
@@ -71,6 +72,7 @@ DEPENDENCIES
   compass
   haml
   rack-cache
+  rdiscount
   shotgun
   sinatra
   sinatra-contrib

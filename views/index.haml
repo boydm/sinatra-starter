@@ -3,6 +3,9 @@
 
 %h1 Hello World
 = image_tag image_path('hello-world.png')
-= partial 'partials/sample_part' 
+= partial 'partials/sample_part'
+%br
+= markdown :'partials/content'
+
 :javascript
 	$(document).ready( hello_world );

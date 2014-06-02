@@ -15,6 +15,8 @@ gem 'haml'
 gem 'sprockets'
 gem 'sprockets-helpers'
 gem 'sprockets-sass'
+
+gem 'rdiscount'
  
 gem 'compass'
 gem 'bootstrap-sass'
