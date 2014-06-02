@@ -6,6 +6,7 @@ Bundler.require
 require 'sinatra/static_assets'
 require 'sinatra/content_for'
 require 'rdiscount'
+require 'pry'                     if Sinatra::Base.development?
  
 class StarterApp < Sinatra::Base
   register Sinatra::Partial

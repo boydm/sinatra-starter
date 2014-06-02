@@ -1,6 +1,6 @@
 Simple hello world starter app that combines...
 
-__sinatra, jquery, sprockets, compass, bootstrap-sass, markdown, partials, content_for, more...__
+__sinatra, pry, jquery, sprockets, compass, bootstrap-sass, markdown, partials, content_for, more...__
 
 It starts out with working images, css and js. The JQuery and Bootstrap js are downloaded from the Cloudflare cdn and the local js is compiled through sprockets.
 

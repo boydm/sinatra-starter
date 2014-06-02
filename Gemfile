@@ -1,7 +1,10 @@
 source :rubygems
 ruby "2.1.1"
  
-gem 'shotgun', :group=>:development
+group :development do
+	gem 'shotgun'
+	gem 'pry'
+end
  
 gem 'rack-cache'
 gem 'sinatra', :require => 'sinatra/base'
